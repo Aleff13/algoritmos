@@ -9,6 +9,7 @@ def main():
         data = Generator_Data.list_generator(size)
         target = size // 2
         BinarySearch.search(data, target)
+        BinarySearch.search_recursive(data, target)
         normal_search(data, target)
 
     plot_elapsed_times()
